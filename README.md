@@ -1,4 +1,4 @@
-# VK-messages-parser
+# VK messages parser
 Парсит сообщения из вашего архива ВК и создаёт визуализацию
 
 ![result visualization](./pics/demonstrarion.gif)
