@@ -1,0 +1,26 @@
+/* add the following styles to apply a brighter glowing effect to the text */
+.text-glow {
+    text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 35px #fff, 0 0 45px #ff00de, 0 0 75px #ff00de, 0 0 85px #ff00de, 0 0 105px #ff00de, 0 0 155px #ff00de;
+    animation: glowing 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glowing {
+    0% {
+      opacity: 0.4;
+      text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 35px #fff, 0 0 45px #ff00de, 0 0 75px #ff00de, 0 0 85px #ff00de, 0 0 105px #ff00de, 0 0 155px #ff00de;
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 110px #ff00de, 0 0 160px #ff00de;
+    }
+  }
+  
+
+
+.contentCanv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
